@@ -50,6 +50,12 @@ export default [
     component: './TableList',
   },
   {
+    name: 'custom.login',
+    icon: 'github',
+    path: '/custom/login',
+    component: './CustomForm/CustomLogin/CustomLogin',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },

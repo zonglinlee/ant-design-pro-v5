@@ -98,4 +98,14 @@ declare namespace API {
     description?: string;
     type?: NoticeIconItemType;
   };
+  type TestResponseBase = {
+    status:string;
+    code:number;
+    msg?:string;
+  }
+  type TestLogin = {
+    username?:string;
+    password?:string;
+    remember?:boolean;
+  }
 }
